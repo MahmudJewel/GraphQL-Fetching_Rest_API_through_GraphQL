@@ -13,9 +13,9 @@ https://jsonplaceholder.typicode.com/comments/{id}/
 	
 #### Other libraries / tools:
 	"@apollo/server": "^4.2.2",
-   	 "graphql": "^16.6.0",
-    	"node-fetch": "^3.3.0",
-    	"nodemon": "^2.0.20"
+   	"graphql": "^16.6.0",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20"
 
 
 # Setup
@@ -27,6 +27,7 @@ $ https://github.com/MahmudJewel/GraphQL-Fetching_Rest_API_through_GraphQL
 ```sh
 $ cd GraphQL-Fetching_Rest_API_through_GraphQL
 $ npm install
+$ npm run gql
 ```
 
 Hit the port ```sh $ http://localhost:4000/ ```
@@ -40,6 +41,7 @@ query  {
   }
 }
 ```
+This will fetch all data from the above data.
 
 # Happy Coding
 ## From ==> Juwel Mahmud
