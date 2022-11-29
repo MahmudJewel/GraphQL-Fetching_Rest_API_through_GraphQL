@@ -2,6 +2,7 @@ const typeDefs = `
     type Query{
         hello: String
         getComment(id: Int!): Comments
+        getAllComments: [Comments]
     }
 
     type Comments{

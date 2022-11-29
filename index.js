@@ -5,7 +5,6 @@ import typeDefs from './schema.js';
 import resolvers from './resolver.js';
 
 
-
 // ******************* Start Apollo Server ************************
 const server = new ApolloServer({
 	typeDefs,
